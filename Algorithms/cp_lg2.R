@@ -2,7 +2,6 @@ library(tidyverse)
 library(caret)
 library(nnet)
 library(caTools)
-
 # Load the data and preprocess it
 f <- read.csv("train.csv")
 f$blue <- as.factor(f$blue)
