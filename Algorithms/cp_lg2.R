@@ -28,7 +28,6 @@ model <- train(price_range ~ ., data = tr_data, method = "multinom", trControl =
 # Summarize the model
 print(summary(model$finalModel))
 
-
 # Predict on the test set
 predicted <- predict(model, ts_data)
 
