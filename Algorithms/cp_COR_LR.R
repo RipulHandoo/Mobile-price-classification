@@ -6,6 +6,7 @@ f<-read.csv("train.csv")
 head(f)
 f$blue <- as.factor(f$blue)
 f$dual_sim <- as.factor(f$dual_sim)
+
 f$four_g <- as.factor(f$four_g)
 f$three_g<- as.factor(f$three_g)
 f$touch_screen <- as.factor(f$touch_screen)
